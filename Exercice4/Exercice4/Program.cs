@@ -8,31 +8,44 @@ namespace Exercice4
         {
             Random rand = new Random();
             bool again = true;
-            int inputNumber;
-            int attempt;
+            int inputInInt;
             int randNumber = rand.Next(1, 50);
             int counter = 1;
+            bool verifInput = true;
+            string inputToString;
             while (again)
-            {              
-                Console.WriteLine("Devinez le nombre (entre 1 et 50):");
-                Console.WriteLine("Saisissez un nombre:");
-                inputNumber = Convert.ToInt32(Console.ReadLine());
-                if (randNumber==inputNumber)
+            {
+                while (verifInput)
                 {
-                    Console.WriteLine($"Bravo vous avez trouvé !");
-                    again = false;
-                }else if (inputNumber < randNumber)
-                {
-                    Console.WriteLine("C’est plus grand");
-                }
-                else
-                {
-                    Console.WriteLine(" C’est plus petit");
-                }
-                Console.WriteLine($"Tentative : {counter++}");
+                    Console.WriteLine("Devinez le nombre (entre 1 et 50):");
+                    Console.WriteLine("Saisissez un nombre:");
+                    inputToString = Console.ReadLine();
+                    if (int.TryParse(inputToString,out inputInInt))
+                    {
+                        if (randNumber == inputInInt)
+                        {
+                            Console.WriteLine($"Bravo vous avez trouvé !");
+                            again = false;
+                            verifInput = false;
+                        }
+                        else if (inputInInt < randNumber)
+                        {
+                            Console.WriteLine("C’est plus grand");
+                        }
+                        else
+                        {
+                            Console.WriteLine(" C’est plus petit");
+                        }
+                        Console.WriteLine($"Tentative : {counter++}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("La saisie n'est pas un nombre");
+                    }
+                    
+                    
+                }              
             }
-            
-
         }
     }
 }

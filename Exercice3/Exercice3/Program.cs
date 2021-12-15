@@ -7,19 +7,46 @@ namespace Exercice3
         static void Main(string[] args)
         {
             int result = 0;
+            int saisieInInt;
             bool again = true;
+            bool inputIsWrong = true;
             string inputContinueChoice;
+            string saisie;
             while (again)
             {
+                inputIsWrong = true;
                 Console.WriteLine("Saisissez un nombre à additionner:");
-                result += Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine($"resultat: {result}");
-                Console.WriteLine("Voulez-vous ajouter un nombre(oui/non):");
-                inputContinueChoice = Console.ReadLine().ToLower();
-                if (inputContinueChoice == "non")
+                saisie = Console.ReadLine();
+                if (int.TryParse(saisie,out saisieInInt))
                 {
-                    again = false;
+                    result += saisieInInt;
+                    Console.WriteLine($"resultat: {result}");
+                    while (inputIsWrong)
+                    {
+                        Console.WriteLine("Voulez-vous ajouter un nombre(oui/non):");
+                        inputContinueChoice = Console.ReadLine().ToLower().Trim();
+                        if (inputContinueChoice == "non")
+                        {
+                            again = false;
+                            inputIsWrong = false;
+                        }
+                        else if(inputContinueChoice == "oui") 
+                        {
+                            inputIsWrong = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Saisie incorrect");
+                        }
+                    }
+                    
                 }
+                else
+                {
+                    Console.Write("La saisie n'est pas un nombre.");
+                }               
+                
+                
             }
             
         }

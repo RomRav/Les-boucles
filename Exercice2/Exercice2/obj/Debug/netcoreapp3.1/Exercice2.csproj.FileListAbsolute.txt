@@ -11,3 +11,4 @@ C:\romain\LaManu\Les boucles\Exercice2\Exercice2\obj\Debug\netcoreapp3.1\Exercic
 C:\romain\LaManu\Les boucles\Exercice2\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.dll
 C:\romain\LaManu\Les boucles\Exercice2\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.pdb
 C:\romain\LaManu\Les boucles\Exercice2\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.genruntimeconfig.cache
+C:\romain\LaManu\Les boucles\Exercice2\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.csproj.AssemblyReference.cache
