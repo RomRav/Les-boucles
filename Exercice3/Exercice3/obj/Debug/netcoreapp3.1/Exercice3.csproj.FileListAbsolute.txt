@@ -1,0 +1,13 @@
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\bin\Debug\netcoreapp3.1\Exercice3.exe
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\bin\Debug\netcoreapp3.1\Exercice3.deps.json
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\bin\Debug\netcoreapp3.1\Exercice3.runtimeconfig.json
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\bin\Debug\netcoreapp3.1\Exercice3.runtimeconfig.dev.json
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\bin\Debug\netcoreapp3.1\Exercice3.dll
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\bin\Debug\netcoreapp3.1\Exercice3.pdb
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\obj\Debug\netcoreapp3.1\Exercice3.GeneratedMSBuildEditorConfig.editorconfig
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\obj\Debug\netcoreapp3.1\Exercice3.AssemblyInfoInputs.cache
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\obj\Debug\netcoreapp3.1\Exercice3.AssemblyInfo.cs
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\obj\Debug\netcoreapp3.1\Exercice3.csproj.CoreCompileInputs.cache
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\obj\Debug\netcoreapp3.1\Exercice3.dll
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\obj\Debug\netcoreapp3.1\Exercice3.pdb
+C:\romain\LaManu\Les boucles\Exercice3\Exercice3\obj\Debug\netcoreapp3.1\Exercice3.genruntimeconfig.cache
