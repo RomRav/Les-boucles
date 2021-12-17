@@ -6,11 +6,11 @@ namespace Exercice2
     {
         static void Main(string[] args)
         {
-            int i = 1;
-            while (i <= 10)
+			//Affichage d'une chaîne de caractére contenant le nombre d'itération de la chaîne.
+            
+            for(int messageNumber = 1; messageNumber <= 10; messageNumber++)
             {
-                Console.WriteLine($"Bonjour, je suis le message n°{i}.");
-                i++;
+                Console.WriteLine($"Bonjour, je suis le message n°{messageNumber}.");              
             }
         }
     }

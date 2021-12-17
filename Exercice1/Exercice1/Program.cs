@@ -6,11 +6,12 @@ namespace Exercice1
     {
         static void Main(string[] args)
         {
-            int i= 0;
-            while (i< 10)
+			//Affichage d'une chaîne de caractére en boucle en fonction d'un nombre défini.
+            int compter = 0;
+            while (compter < 10)
                 {
                 Console.WriteLine("Bonjour, je ne suis qu'un simple message.");
-                i++;
+                compter++;
             }
             
         }
